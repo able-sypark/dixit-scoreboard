@@ -16,14 +16,14 @@ function App() {
     scores: [0, 0, 0, 0],
   });
   const [roundHistorys, setRoundHistorys] = useState([
-    {
-      id: 1,
-      scores: [3, 4, 3, 0],
-    },
-    {
-      id: 2,
-      scores: [2, 0, 3, 4],
-    },
+    // {
+    //   id: 1,
+    //   scores: [3, 4, 3, 0],
+    // },
+    // {
+    //   id: 2,
+    //   scores: [2, 0, 3, 4],
+    // },
   ]);
   const [isSubmitDisabled, setIsSubmitDisabled] = useState(false);
 
