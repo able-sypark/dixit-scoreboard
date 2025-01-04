@@ -1,11 +1,11 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-size: medium;
+  font-size: larger;
   background-color: whitesmoke;
 }
 
 body {
-  margin: 0;
+  margin: 10px;
   text-align: center;
 }
 

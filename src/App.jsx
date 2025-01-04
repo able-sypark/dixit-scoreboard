@@ -134,7 +134,7 @@ function App() {
   useEffect(() => {
     // console.log(players);
     const container = document.querySelector(".container");
-    container.style.gridTemplateColumns = `35px repeat(${players.length}, 1fr) auto`;
+    container.style.gridTemplateColumns = `30px repeat(${players.length}, 1fr) auto`;
 
     const sectionSplitters = document.querySelectorAll(".section-splitter");
     sectionSplitters.forEach(
@@ -276,7 +276,9 @@ function App() {
             >
               ▲
             </button>
-            <div>{vote}</div>
+            <div style={{ color: vote === 0 ? "darkgray" : "black" }}>
+              {vote}
+            </div>
             <button
               onClick={() => {
                 handleVoteCounter(index, -1);

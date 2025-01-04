@@ -1,8 +1,8 @@
 .container {
   display: grid;
-  grid-template-columns: 35px repeat(4, 1fr) auto;
+  grid-template-columns: 30px repeat(4, 1fr) auto;
   grid-template-rows: minmax(20px, auto);
-  gap: 15px 10px;
+  gap: 30px 10px;
   /* place-items: center; */
 }
 
@@ -64,6 +64,10 @@ input[type="checkbox"] {
 }
 .number-counter > div {
   margin: 3px 0px;
+}
+.number-counter > button {
+  /* font-size: small; */
+  width: 24px;
 }
 
 .submit-button {
